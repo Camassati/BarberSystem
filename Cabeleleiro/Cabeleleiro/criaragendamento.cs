@@ -34,6 +34,7 @@ namespace Cabeleleiro
                 comboname.DataSource = ds.Tables[0];
                 comboname.DisplayMember = "nome";
                 comboname.ValueMember = "id";
+                
 
                 con.Close();
             }catch(Exception ex)
@@ -65,7 +66,7 @@ namespace Cabeleleiro
 
         private void criaragendamento_Load(object sender, EventArgs e)
         {
-
+            comboname.Text = "";
         }
 
         private void lbpreco_Click(object sender, EventArgs e)
@@ -89,6 +90,12 @@ namespace Cabeleleiro
             {
                 lbpreco.Text = "50";
             }
+        }
+
+        private void comboname_SelectedIndexChanged(object sender, EventArgs e)
+        {
+           
+
         }
     }
 }

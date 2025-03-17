@@ -145,6 +145,12 @@
     <Compile Include="viewagendamento.Designer.cs">
       <DependentUpon>viewagendamento.cs</DependentUpon>
     </Compile>
+    <Compile Include="viewcliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewcliente.Designer.cs">
+      <DependentUpon>viewcliente.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Barber.resx">
       <DependentUpon>Barber.cs</DependentUpon>
     </EmbeddedResource>
@@ -169,6 +175,9 @@
     </Compile>
     <EmbeddedResource Include="viewagendamento.resx">
       <DependentUpon>viewagendamento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewcliente.resx">
+      <DependentUpon>viewcliente.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

@@ -86,6 +86,7 @@ namespace Cabeleleiro
             Frm.TopLevel = false;
             panel.Controls.Add(Frm);
             Frm.Show();
+            label1.Text = "Cadastro Clientes";
         }
 
         private void sair_Click_1(object sender, EventArgs e)
@@ -100,7 +101,8 @@ namespace Cabeleleiro
             Frm.TopLevel = false;
             panel.Controls.Add(Frm);
             Frm.Show();
-        }
+            label1.Text = "Criar Agendamento";
+                }
 
         private void btnhoje_Click(object sender, EventArgs e)
         {
@@ -109,6 +111,17 @@ namespace Cabeleleiro
             Frm.TopLevel = false;
             panel.Controls.Add(Frm);
             Frm.Show();
+            label1.Text = "Agendados de Hoje";
+        }
+
+        private void btnsemana_Click(object sender, EventArgs e)
+        {
+            panel.Controls.Clear();
+            viewcliente Frm = new viewcliente();
+            Frm.TopLevel = false;
+            panel.Controls.Add(Frm);
+            Frm.Show();
+            label1.Text = "Clientes Cadastrados";
         }
     }
     }

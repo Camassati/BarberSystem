@@ -43,12 +43,15 @@
             // 
             // label1
             // 
+            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Comic Sans MS", 35.75F);
+            this.label1.Font = new System.Drawing.Font("Comic Sans MS", 30.75F);
             this.label1.ForeColor = System.Drawing.Color.Maroon;
-            this.label1.Location = new System.Drawing.Point(336, 9);
+            this.label1.Location = new System.Drawing.Point(283, 1);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(316, 67);
+            this.label1.Size = new System.Drawing.Size(270, 57);
             this.label1.TabIndex = 1;
             this.label1.Text = "Menu Barber";
             // 
@@ -56,7 +59,7 @@
             // 
             this.panel.Location = new System.Drawing.Point(228, 70);
             this.panel.Name = "panel";
-            this.panel.Size = new System.Drawing.Size(544, 429);
+            this.panel.Size = new System.Drawing.Size(583, 429);
             this.panel.TabIndex = 2;
             // 
             // sair
@@ -99,10 +102,10 @@
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 159);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 4;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(221, 309);
             this.tableLayoutPanel1.TabIndex = 1;
             // 
@@ -112,6 +115,7 @@
             this.btnagendamento.FlatAppearance.BorderSize = 0;
             this.btnagendamento.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnagendamento.Font = new System.Drawing.Font("Comic Sans MS", 14F);
+            this.btnagendamento.ForeColor = System.Drawing.Color.Snow;
             this.btnagendamento.Location = new System.Drawing.Point(3, 234);
             this.btnagendamento.Name = "btnagendamento";
             this.btnagendamento.Size = new System.Drawing.Size(215, 44);
@@ -126,11 +130,12 @@
             this.btncad.FlatAppearance.BorderSize = 0;
             this.btncad.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btncad.Font = new System.Drawing.Font("Comic Sans MS", 14F);
+            this.btncad.ForeColor = System.Drawing.Color.Snow;
             this.btncad.Location = new System.Drawing.Point(3, 157);
             this.btncad.Name = "btncad";
             this.btncad.Size = new System.Drawing.Size(215, 44);
             this.btncad.TabIndex = 2;
-            this.btncad.Text = "Cadastro Clientes";
+            this.btncad.Text = "Cadastrar Clientes";
             this.btncad.UseVisualStyleBackColor = false;
             this.btncad.Click += new System.EventHandler(this.btncad_Click);
             // 
@@ -140,6 +145,7 @@
             this.btnhoje.FlatAppearance.BorderSize = 0;
             this.btnhoje.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnhoje.Font = new System.Drawing.Font("Comic Sans MS", 14F);
+            this.btnhoje.ForeColor = System.Drawing.Color.Snow;
             this.btnhoje.Location = new System.Drawing.Point(3, 3);
             this.btnhoje.Name = "btnhoje";
             this.btnhoje.Size = new System.Drawing.Size(215, 44);
@@ -154,18 +160,21 @@
             this.btnsemana.FlatAppearance.BorderSize = 0;
             this.btnsemana.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnsemana.Font = new System.Drawing.Font("Comic Sans MS", 14F);
+            this.btnsemana.ForeColor = System.Drawing.Color.Snow;
             this.btnsemana.Location = new System.Drawing.Point(3, 80);
             this.btnsemana.Name = "btnsemana";
             this.btnsemana.Size = new System.Drawing.Size(215, 44);
             this.btnsemana.TabIndex = 2;
-            this.btnsemana.Text = "Agendados Semana";
+            this.btnsemana.Text = "Clientes Cadastrados";
             this.btnsemana.UseVisualStyleBackColor = false;
+            this.btnsemana.Click += new System.EventHandler(this.btnsemana_Click);
             // 
             // Barber
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(784, 511);
+            this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.ClientSize = new System.Drawing.Size(814, 511);
             this.Controls.Add(this.sair);
             this.Controls.Add(this.panel);
             this.Controls.Add(this.label1);

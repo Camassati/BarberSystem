@@ -48,7 +48,7 @@
             this.tableLayoutPanel1.ColumnCount = 3;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 35.16129F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 64.83871F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 72F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 75F));
             this.tableLayoutPanel1.Controls.Add(this.button1, 1, 2);
             this.tableLayoutPanel1.Controls.Add(this.txtsenha, 1, 1);
             this.tableLayoutPanel1.Controls.Add(this.label1, 0, 0);
@@ -72,9 +72,9 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.button1.BackColor = System.Drawing.Color.SeaGreen;
             this.button1.Font = new System.Drawing.Font("Comic Sans MS", 15.75F);
-            this.button1.Location = new System.Drawing.Point(98, 93);
+            this.button1.Location = new System.Drawing.Point(97, 93);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(169, 38);
+            this.button1.Size = new System.Drawing.Size(167, 38);
             this.button1.TabIndex = 1;
             this.button1.Text = "ACESSAR";
             this.button1.UseVisualStyleBackColor = false;
@@ -86,9 +86,9 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtsenha.Font = new System.Drawing.Font("Comic Sans MS", 15.75F);
-            this.txtsenha.Location = new System.Drawing.Point(98, 48);
+            this.txtsenha.Location = new System.Drawing.Point(97, 48);
             this.txtsenha.Name = "txtsenha";
-            this.txtsenha.Size = new System.Drawing.Size(169, 37);
+            this.txtsenha.Size = new System.Drawing.Size(167, 37);
             this.txtsenha.TabIndex = 3;
             this.txtsenha.UseSystemPasswordChar = true;
             // 
@@ -101,7 +101,7 @@
             this.label1.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(3, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(89, 45);
+            this.label1.Size = new System.Drawing.Size(88, 45);
             this.label1.TabIndex = 0;
             this.label1.Text = "Usuário:";
             // 
@@ -114,7 +114,7 @@
             this.label2.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(3, 45);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(89, 45);
+            this.label2.Size = new System.Drawing.Size(88, 45);
             this.label2.TabIndex = 1;
             this.label2.Text = "Senha:";
             // 
@@ -124,15 +124,15 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtusuario.Font = new System.Drawing.Font("Comic Sans MS", 15.75F);
-            this.txtusuario.Location = new System.Drawing.Point(98, 3);
+            this.txtusuario.Location = new System.Drawing.Point(97, 3);
             this.txtusuario.Name = "txtusuario";
-            this.txtusuario.Size = new System.Drawing.Size(169, 37);
+            this.txtusuario.Size = new System.Drawing.Size(167, 37);
             this.txtusuario.TabIndex = 2;
             // 
             // exibir
             // 
             this.exibir.AutoSize = true;
-            this.exibir.Location = new System.Drawing.Point(273, 48);
+            this.exibir.Location = new System.Drawing.Point(270, 48);
             this.exibir.Name = "exibir";
             this.exibir.Size = new System.Drawing.Size(50, 17);
             this.exibir.TabIndex = 4;
