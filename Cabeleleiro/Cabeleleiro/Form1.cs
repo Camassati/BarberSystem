@@ -71,7 +71,24 @@ namespace Cabeleleiro
             return loginValido;
         }
 
-        private void exibir_CheckedChanged(object sender, EventArgs e)
+       
+
+        private void sair_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void exibir_CheckedChanged_1(object sender, EventArgs e)
         {
             if (exibir.CheckState == CheckState.Checked)
             {
@@ -81,11 +98,6 @@ namespace Cabeleleiro
             {
                 txtsenha.UseSystemPasswordChar = true;
             }
-        }
-
-        private void sair_Click(object sender, EventArgs e)
-        {
-            Close();
         }
     }
 }

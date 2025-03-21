@@ -46,22 +46,60 @@ namespace Cabeleleiro
         }
         private void button1_Click(object sender, EventArgs e)
         {
+            // Conexão com o banco
             MySqlConnection con = new MySqlConnection("server=acessobarber.mysql.dbaas.com.br; uid=acessobarber; pwd=Senha4#; database=acessobarber");
-            con.Open();
-            MySqlCommand cmd = new MySqlCommand("INSERT INTO agendamento (nome, horario, preco, telefone,corte,data) VALUES (@nome, @horario, @preco,@telefone,@corte,@data)", con);
 
-            cmd.Parameters.AddWithValue("@nome", (comboname.Text));
-            cmd.Parameters.AddWithValue("@horario", (combohorario.Text));
-            cmd.Parameters.AddWithValue("@telefone", (tel.Text));
-            cmd.Parameters.AddWithValue("@corte", (comboservico.Text));
-            cmd.Parameters.AddWithValue("@data", (dateTimePicker1.Text));
-            cmd.Parameters.AddWithValue("@preco", (lbpreco.Text));
+            try
+            {
+                con.Open();
 
-            cmd.ExecuteNonQuery();
+                // Verifica se já existe um agendamento com a mesma data e horário
+                string verificaQuery = "SELECT COUNT(*) FROM agendamento WHERE data = @data AND horario = @horario";
+                MySqlCommand verificaCmd = new MySqlCommand(verificaQuery, con);
+                verificaCmd.Parameters.AddWithValue("@data", dateTimePicker1.Text);
+                verificaCmd.Parameters.AddWithValue("@horario", combohorario.Text);
 
-            con.Close();
+                int existe = Convert.ToInt32(verificaCmd.ExecuteScalar()); // Obtém o número de registros encontrados
 
-            MessageBox.Show("Cadastrado com Sucesso!!!");
+                if (existe > 0)
+                {
+                    MessageBox.Show("Não foi possível cadastrar! Já existe um cliente agendado neste horário.", "Horário Indisponível", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
+                else
+                {
+                    // Insere o novo agendamento
+                    string query = "INSERT INTO agendamento (nome, horario, preco, telefone, corte, data) VALUES (@nome, @horario, @preco, @telefone, @corte, @data)";
+                    MySqlCommand cmd = new MySqlCommand(query, con);
+
+                    cmd.Parameters.AddWithValue("@nome", comboname.Text);
+                    cmd.Parameters.AddWithValue("@horario", combohorario.Text);
+                    cmd.Parameters.AddWithValue("@telefone", tel.Text);
+                    cmd.Parameters.AddWithValue("@corte", comboservico.Text);
+                    cmd.Parameters.AddWithValue("@data", dateTimePicker1.Text);
+                    cmd.Parameters.AddWithValue("@preco", lbpreco.Text);
+
+                    cmd.ExecuteNonQuery();
+
+                    MessageBox.Show("Cadastrado com Sucesso!!!", "Sucesso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                    // Limpa os campos após o cadastro
+                    comboname.Text = "";
+                    combohorario.Text = "";
+                    tel.Text = "";
+                    comboservico.Text = "";
+                    lbpreco.Text = "";
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erro: " + ex.Message, "Erro ao Cadastrar", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                con.Close();
+            }
+
+
         }
 
         private void criaragendamento_Load(object sender, EventArgs e)

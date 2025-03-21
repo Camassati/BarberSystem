@@ -91,7 +91,7 @@ namespace Cabeleleiro
 
         private void sair_Click_1(object sender, EventArgs e)
         {
-            Close();
+            Application.Exit();
         }
 
         private void btnagendamento_Click(object sender, EventArgs e)
@@ -102,6 +102,7 @@ namespace Cabeleleiro
             panel.Controls.Add(Frm);
             Frm.Show();
             label1.Text = "Criar Agendamento";
+
                 }
 
         private void btnhoje_Click(object sender, EventArgs e)
@@ -111,7 +112,7 @@ namespace Cabeleleiro
             Frm.TopLevel = false;
             panel.Controls.Add(Frm);
             Frm.Show();
-            label1.Text = "Agendados de Hoje";
+            label1.Text = "Agendamentos";
         }
 
         private void btnsemana_Click(object sender, EventArgs e)
@@ -122,6 +123,11 @@ namespace Cabeleleiro
             panel.Controls.Add(Frm);
             Frm.Show();
             label1.Text = "Clientes Cadastrados";
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
     }

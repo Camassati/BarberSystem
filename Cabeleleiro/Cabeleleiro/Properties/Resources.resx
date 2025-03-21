@@ -118,19 +118,106 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="12322BARBEARIA-ARACAJU-BARBEIRO-MESTRE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\12322BARBEARIA-ARACAJU-BARBEIRO-MESTRE.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Captura de tela 2025-03-17 222627 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura de tela 2025-03-17 222627 (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Design sem nome (5)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Design sem nome (5).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Captura de tela 2025-03-17 222627" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura de tela 2025-03-17 222627.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="image00004-scaled" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\image00004-scaled.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1BARBE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1BARBE.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BARBEARIA-ARACAJU-BARBEIRO-MESTRE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BARBEARIA-ARACAJU-BARBEIRO-MESTRE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1BARBE1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1BARBE1.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1POSTE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1POSTE.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="panel" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\panel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="back1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\back1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="back" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Snapinst.app_93295313_2648539472089409_2448318212584905821_n_1080" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Snapinst.app_93295313_2648539472089409_2448318212584905821_n_1080.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="2POSTE1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2POSTE1.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="yct4utgn (1)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\yct4utgn (1)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1BARBE4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1BARBE4.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BARBEARIA-ARACAJU-BARBEIRO-MESTRE1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BARBEARIA-ARACAJU-BARBEIRO-MESTRE1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1BARBE5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1BARBE5.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1BARBEARIA-ARACAJU-BARBEIRO-MESTRE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1BARBEARIA-ARACAJU-BARBEIRO-MESTRE.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="panel1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\panel1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Snapinst.app_93295313_2648539472089409_2448318212584905821_n_1080" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Snapinst.app_93295313_2648539472089409_2448318212584905821_n_1080.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Postes-de-barbearia-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Postes-de-barbearia-1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="12BARBEARIA-ARACAJU-BARBEIRO-MESTRE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\12BARBEARIA-ARACAJU-BARBEIRO-MESTRE.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1222BARBEARIA-ARACAJU-BARBEIRO-MESTRE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1222BARBEARIA-ARACAJU-BARBEIRO-MESTRE.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1BARBE3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1BARBE3.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="yct4utgn (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\yct4utgn (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2POSTE2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2POSTE2.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="122BARBEARIA-ARACAJU-BARBEIRO-MESTRE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\122BARBEARIA-ARACAJU-BARBEIRO-MESTRE.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="back1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\back1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2POSTE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2POSTE.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1BARBE2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1BARBE2.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Postes-de-barbearia-11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Postes-de-barbearia-11.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2POSTE3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2POSTE3.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Captura de tela 2025-03-17 220220" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura de tela 2025-03-17 220220.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Captura de tela 2025-03-17 222911 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura de tela 2025-03-17 222911 (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Postes-de-barbearia-1 (1) (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Postes-de-barbearia-1 (1) (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

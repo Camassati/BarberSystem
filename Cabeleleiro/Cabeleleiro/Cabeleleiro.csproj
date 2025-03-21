@@ -223,5 +223,92 @@
   <ItemGroup>
     <None Include="Resources\panel1.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BARBEARIA-ARACAJU-BARBEIRO-MESTRE.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image00004-scaled.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de tela 2025-03-17 220220.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Design sem nome %285%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Postes-de-barbearia-1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Postes-de-barbearia-11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de tela 2025-03-17 222627.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de tela 2025-03-17 222627 %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de tela 2025-03-17 222911 %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1POSTE.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2POSTE.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2POSTE1.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2POSTE2.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BARBEARIA-ARACAJU-BARBEIRO-MESTRE1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1BARBEARIA-ARACAJU-BARBEIRO-MESTRE.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\12BARBEARIA-ARACAJU-BARBEIRO-MESTRE.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\122BARBEARIA-ARACAJU-BARBEIRO-MESTRE.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1222BARBEARIA-ARACAJU-BARBEIRO-MESTRE.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\12322BARBEARIA-ARACAJU-BARBEIRO-MESTRE.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1BARBE.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1BARBE1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1BARBE2.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1BARBE3.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1BARBE4.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1BARBE5.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2POSTE3.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yct4utgn %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yct4utgn %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Postes-de-barbearia-1 %281%29 %281%29.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

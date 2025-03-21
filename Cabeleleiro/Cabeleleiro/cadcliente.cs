@@ -43,5 +43,10 @@ namespace Cabeleleiro
         {
 
         }
+
+        private void txtnome_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
